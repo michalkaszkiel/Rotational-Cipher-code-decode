@@ -12,8 +12,10 @@ Cesar cipher class has its methods:
 1. code()
 
 * takes two arguments: 
-    *       string which will be decrypted,
-    *       the offset, the shift distance chosen by an index heading left. \nEach letter is replaced by another letter of offset \nindex located a little further in the alphabet. 
+    *       string which will be decrypted
+    *       the offset, the shift distance chosen by an index heading left.
+            Each letter is replaced by another letter of offset index located
+            a little further in the alphabet.
 
 2. decode()
 * takes two arguments: 
