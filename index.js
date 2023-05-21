@@ -5,7 +5,7 @@ class Cipher {
         this.cipher = "";
         this.decoded = "";
     }
-    rotate(string, index) {
+    code(string, index) {
         for (let i = 0; i < string.length; i++) {
             let letter = string.charAt(i);
             let letterIndex = this.plain.indexOf(letter); //indexOf() method returns the position of the first occurrence of a specified value in a string letter is a character of in alphabet (plain) and indexOf is checking its index
@@ -40,7 +40,7 @@ class Cipher {
     }
 }
 const newCipher = new Cipher();
-console.log(newCipher.rotate("randompassword", 24));
+console.log(newCipher.code("randompassword", 24));
 console.log(newCipher.decode("pylbmknyqqumpb", 24));
 
 
