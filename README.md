@@ -4,7 +4,8 @@ Code inludes classes and strings methods which can encrypt the password consiste
 
 
 ## Explanation
-![App Screenshot](https://www.researchgate.net/publication/352792492/figure/fig2/AS:1039680208396288@1624890486943/Encoding-of-the-letters-in-The-Caesar-Cipher-6.ppm)
+![Encoding-of-the-letters-in-The-Caesar-Cipher-6](https://github.com/michalkaszkiel/Rotational-Cipher-code-decode/assets/120386627/ac728624-e486-4d8b-8c48-d4459578402e)
+
 
 English alphabet consists of 26 characters which JavaScript transforms to index of 25. 
 Cesar cipher class has its methods:
