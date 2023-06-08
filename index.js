@@ -11,13 +11,11 @@ class Cipher {
             let letterIndex = this.plain.indexOf(letter); //indexOf() method returns the position of the first occurrence of a specified value in a string letter is a character of in alphabet (plain) and indexOf is checking its index
             if (letterIndex !== -1) { 
                 let newIndex = (letterIndex + index) % this.plain.length; //% modulo (rest of division) used if index goes beyond the letter 'z'.
-                let letterOfCipher = this.plain.charAt(newIndex);
-                this.cipher += letterOfCipher;
+                let letterOfCipher = this.plain.charAt(newIndex);//charAt() method returns the character at the specified index in a string
+                this.cipher += letterOfCipher;//+= adds the letterOfCipher to the cipher
             } 
   
-            else {
-                this.cipher += letter; // If the character is not a letter add letter without changes
-            }
+           
         }
         return this.cipher;
     }
@@ -32,9 +30,7 @@ class Cipher {
                 } 
                 let letterOfCipher = this.plain.charAt(newIndex);
                 this.decoded += letterOfCipher;
-            } else {
-                this.decoded += letter;
-            }
+            } 
     }
     return this.decoded;
     }
